@@ -1,4 +1,4 @@
-package com.soteria.soteriagui;
+package com.soteria;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

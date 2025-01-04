@@ -4,6 +4,6 @@ module com.soteria.soteriagui {
 
     requires org.kordamp.ikonli.javafx;
 
-    opens com.soteria.soteriagui to javafx.fxml;
-    exports com.soteria.soteriagui;
+    opens com.soteria to javafx.fxml;
+    exports com.soteria;
 }

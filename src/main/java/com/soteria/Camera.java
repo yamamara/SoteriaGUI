@@ -1,4 +1,4 @@
-package com.soteria.soteriagui;
+package com.soteria;
 
 public record Camera(String ipAddress, int port, String path) {
     String getURL() {
