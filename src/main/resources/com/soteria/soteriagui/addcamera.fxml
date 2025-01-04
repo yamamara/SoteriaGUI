@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.soteria.soteriagui.AddCameraController">
+   <children>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="IP Address:" />
+            <TextField fx:id="ipAddressField" />
+         </children>
+      </HBox>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Port:" />
+            <TextField fx:id="portField" />
+         </children>
+      </HBox>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Camera path:" />
+            <TextField fx:id="pathField"/>
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#handleOkButton" text="Ok" />
+   </children>
+</VBox>
